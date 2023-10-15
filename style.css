@@ -1,0 +1,72 @@
+
+/* DEFAULT FONT */
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Cinzel:wght@400;700&family=Staatliches&display=swap');
+
+
+html {
+    font-family: 'Bebas Neue', sans-serif;
+
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    align-items: center;
+}
+
+header img {
+    width: 100px;
+}
+
+
+
+.hero {
+    margin-top: -150px;
+    padding: 30px;
+    background-image: url('img/Rectangle.png');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.segment {
+    color: #fff;
+    background-color: #333;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.left-segment, .right-segment {
+    flex: 1;
+    padding: 10px;
+}
+.left-segment img {
+    height: 500px;
+}
+
+.image-section {
+    background-image: url('img/bar.png');
+    background-size: cover;
+    background-position: center;
+    height: 400px; /* Adjust the height as needed */
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
