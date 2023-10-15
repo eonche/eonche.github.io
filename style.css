@@ -31,7 +31,7 @@ header img {
 .hero {
     margin-top: -150px;
     padding: 30px;
-    background-image: url('img/Rectangle.png');
+    background-image: url('Rectangle.png');
     background-size: cover;
     background-position: center;
     height: 100vh;
@@ -58,7 +58,7 @@ header img {
 }
 
 .image-section {
-    background-image: url('img/bar.png');
+    background-image: url('bar.png');
     background-size: cover;
     background-position: center;
     height: 400px; /* Adjust the height as needed */
